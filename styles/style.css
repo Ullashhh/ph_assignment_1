@@ -169,4 +169,135 @@ button {
     color: red;
 }
 
+.best-offer__section{
+    margin-top: 8rem;
+    padding: 0 10rem;
+}
 
+.best-offer__heading{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem
+}
+
+.best__offer__img{
+    border:  15px solid red;
+    border-radius: 50%;
+    padding: 3rem;
+}
+
+.best__offer__info{
+    margin-top: 8rem;
+    padding: 0 1rem;
+}
+
+.best__offer__info :nth-child(1){
+    font-size: 1.3rem;
+    color: red;
+}
+
+
+.best__offer__info :nth-child(2){
+    font-size: 2.2rem;
+}
+
+
+.best__offer__info h2{
+    margin-bottom: 1rem;
+}
+
+.best__offer__info p{
+    margin-top: 2rem;
+    line-height: 1.5rem;
+    color: grey;
+}
+
+.best__offer__con{
+    margin-top: 8rem;
+    padding: 0 1rem;
+}
+
+.best__offer__con h2{
+    margin-bottom: 1rem;
+    color: red;
+    font-size: 2rem;
+}
+
+.best__offer__con p{
+    line-height: 1.5rem;
+    color: grey;
+    margin-bottom: 1rem;
+}
+
+
+.holiday__section{
+    margin-top: 8rem;
+    padding: 0 10rem;
+}
+
+.holiday__info__title {
+    font-size: 1.5rem;
+}
+
+.holiday__info__msg{
+    color: grey;
+    line-height: 1.5rem;
+}
+
+.holiday__info :nth-child(1){
+   text-align: center;
+   margin-bottom: 1rem; 
+   /* font-size: 1.5rem; */
+}
+
+.holiday__info :nth-child(2) p{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.holiday__info :nth-child(3){
+    text-align: center;
+}
+
+.holiday__msg{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.holiday__title{
+    color: red;
+}
+
+.holiday__info p{
+    margin-bottom: 2rem;
+}
+
+.holiday__img{
+    position: relative;
+    height: 450px;
+    margin-top: 5rem;
+}
+
+.holiday__img__1{
+    position: absolute;
+    right: 0;
+    top: 7%;
+
+}
+.holiday__img__2{
+    position: absolute;
+    left: 46%;
+    top: 15%;
+    z-index: 2;
+}
+.holiday__img__3{
+    position: absolute;
+    top: 100%;
+    z-index: 0;
+}
+.holiday__img__4{
+    position: absolute;
+    z-index: 1;
+    top: 6%;
+    width: 70%;
+}
