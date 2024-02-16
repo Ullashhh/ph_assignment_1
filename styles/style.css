@@ -370,6 +370,7 @@ button {
 
 .subscribe__header p {
   color: grey;
+  line-height: 1.5rem;
 }
 
 
@@ -416,6 +417,10 @@ footer{
 
 .footer__call img,  .footer__site img{
     margin-right: 0.5rem;
+}
+
+.footer__address p{
+    line-height: 1.5rem;
 }
 
 .footer__img{
