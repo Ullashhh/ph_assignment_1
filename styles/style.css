@@ -395,3 +395,43 @@ button {
     padding: 1rem 3rem;
     cursor: pointer;
 }
+
+footer{
+    background-color: black;
+    margin-top: 8rem;
+    color: white;
+    padding: 5rem 10rem 1rem;
+}
+
+.footer__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__call, .footer__site{
+    display: flex;
+    align-items: center;
+}
+
+.footer__call img,  .footer__site img{
+    margin-right: 0.5rem;
+}
+
+.footer__img{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.footer__img img{
+    margin-left: 1rem;
+    width: 50px;
+    cursor: pointer;
+}
+
+.copyright{
+    margin-top: 3rem;
+    color: grey;
+    text-align: center;
+}
+
