@@ -1,14 +1,21 @@
+/* google fonts  */
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap");
 
+
+/* universal */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* body  */
+
 body {
   font-family: "Exo 2", sans-serif;
 }
+
+/* banner section  */
 
 .banner__section {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
@@ -36,6 +43,8 @@ body {
 .banner__info h1 {
   font-size: 3.5rem;
 }
+
+/* offer section  */
 
 .offer__section {
   margin-top: 8rem;
@@ -69,6 +78,9 @@ body {
   width: 50%;
   margin-top: 3rem;
 }
+
+
+/* party section  */
 
 .party__section {
   margin-top: 10rem;
@@ -145,6 +157,9 @@ button {
   border-bottom-right-radius: var(--radius);
 }
 
+
+/* event section  */
+
 .event__section {
   margin-top: 5rem;
   background: linear-gradient(#fdc1c1, #fff7e6);
@@ -168,6 +183,8 @@ button {
 .event__title {
   color: red;
 }
+
+/* best offer section  */
 
 .best-offer__section {
   margin-top: 8rem;
@@ -226,6 +243,8 @@ button {
   color: grey;
   margin-bottom: 1rem;
 }
+
+/* holiday section  */
 
 .holiday__section {
   margin-top: 8rem;
@@ -297,6 +316,8 @@ button {
   width: 70%;
 }
 
+/* gifts section  */
+
 .gifts__section {
   padding: 0 10rem;
   margin-top: 20rem;
@@ -348,6 +369,8 @@ button {
   color: grey;
   line-height: 1.5rem;
 }
+
+/* subscribe section  */
 
 .subscribe__section {
   height: 100vh;
@@ -417,6 +440,8 @@ button {
   transform: scale(0.95);
 }
 
+
+/* footer section  */
 
 footer {
   background-color: black;
