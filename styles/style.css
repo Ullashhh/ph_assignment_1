@@ -348,3 +348,50 @@ button {
   color: grey;
   line-height: 1.5rem;
 }
+
+.subscribe__section {
+  margin-top: 8rem;
+  padding: 5rem 0;
+  background: linear-gradient(#fdc1c1, #fff7e6);
+}
+
+.subscribe__header {
+  text-align: center;
+}
+
+.subscribe__header img {
+  margin-bottom: 2rem;
+}
+
+.subscribe__header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.subscribe__header p {
+  color: grey;
+}
+
+
+.subscribe__form{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.subscribe__form input[type="email"] {
+    padding: 1rem 3rem;
+    border: 0;
+    border-top-left-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
+
+.subscribe__form input[type="submit"] {
+    border: 0;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 40%;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
